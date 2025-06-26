@@ -1,5 +1,7 @@
+import 'package:easy_localization/easy_localization.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
+import 'package:flutter_clean_architecture_with_bloc/core/constants/app_strings.dart';
 import '../bloc/item_bloc.dart';
 import '../bloc/item_event.dart';
 import '../bloc/item_state.dart';
@@ -13,14 +15,14 @@ class ItemPage extends StatelessWidget {
     return BlocProvider(
       create: (context) => BlocProvider.of<ItemBloc>(context)..add(ItemRequested()),
       child: Scaffold(
-        appBar: AppBar(title: Text('Item Page')),
+        appBar: AppBar(title: Text(context.tr(AppStrings.appName))),
         body: Column(
           crossAxisAlignment: CrossAxisAlignment.start,
           children: [
             Padding(
               padding: const EdgeInsets.all(16.0),
               child: Text(
-                'Item Page Example',
+                context.tr(AppStrings.welcomeToX),
                 style: Theme.of(context).textTheme.titleLarge,
               ),
             ),
