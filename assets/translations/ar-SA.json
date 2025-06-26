@@ -1,0 +1,20 @@
+{
+  "appName": "تطبيق فلاتر",
+  "welcomeToX": "مرحبًا بك في X",
+  "english": "الإنجليزية",
+  "arabic": "العربية",
+  "language": "اللغة",
+  "system": "النظام",
+  "settings": "الإعدادات",
+  "dark": "داكن",
+  "light": "فاتح",
+  "password": "كلمة المرور",
+  "emailIsRequired": "البريد الإلكتروني مطلوب",
+  "pleaseEnterAValidEmail": "يرجى إدخال بريد إلكتروني صحيح",
+  "passwordIsRequired": "كلمة المرور مطلوبة",
+  "passwordMustBeAtLeastXCharacters": "يجب أن تكون كلمة المرور {X} أحرف على الأقل",
+  "nameIsRequired": "الاسم مطلوب",
+  "nameMustBeAtLeastXCharacters": "يجب أن يكون الاسم {X} أحرف على الأقل",
+  "phoneIsRequired": "رقم الهاتف مطلوب",
+  "pleaseEnterAValidPhoneNumber": "يرجى إدخال رقم هاتف صالح"
+}

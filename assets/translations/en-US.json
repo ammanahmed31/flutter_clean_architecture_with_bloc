@@ -1,0 +1,20 @@
+{
+  "appName": "Flutter App",
+  "welcomeToX": "Welcome to X",
+  "english": "English",
+  "arabic": "Arabic",
+  "language": "Language",
+  "system": "System",
+  "settings": "Settings",
+  "dark": "Dark",
+  "light": "Light",
+  "password": "Password",
+  "emailIsRequired": "Email is required",
+  "pleaseEnterAValidEmail": "Please enter a valid email",
+  "passwordIsRequired": "Password is required",
+  "passwordMustBeAtLeastXCharacters": "Password must be at least {X} characters",
+  "nameIsRequired": "Name is required",
+  "nameMustBeAtLeastXCharacters": "Name must be at least {X} characters",
+  "phoneIsRequired": "Phone number is required",
+  "pleaseEnterAValidPhoneNumber": "Please enter a valid phone number"
+}
